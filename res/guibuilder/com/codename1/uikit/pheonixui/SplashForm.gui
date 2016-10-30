@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="BorderLayout" borderLayoutAbsoluteCenter="true"  title="" uiid="Splash" name="SplashForm">
+  <component type="Container" layout="BoxLayout" boxLayoutAxis="Y"  name="Container_1">
+    <layoutConstraint value="Center" />
+    <component type="Container" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="0"  name="Container_2">
+      <component type="InfiniteProgress" name="Infinite_Progress_1">
+      </component>
+    </component>
+    <component type="Label" icon="resFile:logo.png" name="Label_1">
+    </component>
+  </component>
+</component>

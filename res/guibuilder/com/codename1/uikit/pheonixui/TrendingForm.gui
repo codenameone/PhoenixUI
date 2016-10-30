@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="BoxLayout" boxLayoutAxis="Y"  title="Trending" name="TrendingForm">
+  <component type="Container" layout="BorderLayout" borderLayoutAbsoluteCenter="false"  name="Container_1">
+    <component type="MultiButton" uiid="Label" name="Multi_Button_1" icon="resFile:contact-c.png">
+    <custom name="line1" type="java.lang.String" value="Ami Koehler"/>
+    <custom name="line2" type="java.lang.String" value="@dropperidiot"/>
+    <custom name="uiid1" type="java.lang.String" value="Label"/>
+    <custom name="uiid2" type="java.lang.String" value="RedLabel"/>
+      <layoutConstraint value="Center" />
+    </component>
+    <component type="MultiButton" uiid="Label" name="LA">
+    <custom name="line1" type="java.lang.String" value="3 minutes ago"/>
+    <custom name="line2" type="java.lang.String" value="in Los Angeles"/>
+    <custom name="uiid1" type="java.lang.String" value="SlightlySmallerFontLabel"/>
+    <custom name="uiid2" type="java.lang.String" value="RedLabelRight"/>
+      <layoutConstraint value="East" />
+    </component>
+  </component>
+  <component type="Container" layout="BorderLayout" borderLayoutAbsoluteCenter="false"  name="imageContainer1">
+    <component type="Container" layout="BorderLayout" borderLayoutAbsoluteCenter="false"  name="Container_2">
+      <layoutConstraint value="South" />
+      <component type="TextArea" text="The park is a favorite among skaters in California and it definitely deserves it. The park is complete with plenty of smooth banks to gain a ton of speed in the flow bowl." uiid="SlightlySmallerFontLabelLeft" name="Text_Area_1">
+        <layoutConstraint value="Center" />
+      </component>
+      <component type="Button" text="" uiid="Label" icon="fontImage:" pressedIcon="fontImage:" disabledIcon="fontImage:" name="Button_1">
+        <layoutConstraint value="East" />
+      </component>
+    </component>
+  </component>
+  <component type="Label" uiid="Separator" name="separator1">
+  </component>
+  <component type="Container" layout="BorderLayout" borderLayoutAbsoluteCenter="false"  name="null_1_1">
+    <component type="MultiButton" uiid="Label" name="null_1_1" icon="resFile:contact-b.png">
+    <custom name="line1" type="java.lang.String" value="Detra Mcmunn"/>
+    <custom name="line2" type="java.lang.String" value="@dropperidiot"/>
+    <custom name="uiid1" type="java.lang.String" value="Label"/>
+    <custom name="uiid2" type="java.lang.String" value="RedLabel"/>
+      <layoutConstraint value="Center" />
+    </component>
+    <component type="MultiButton" uiid="Label" name="newYork">
+    <custom name="line1" type="java.lang.String" value="15 minutes ago"/>
+    <custom name="line2" type="java.lang.String" value="in New York"/>
+    <custom name="uiid1" type="java.lang.String" value="SlightlySmallerFontLabel"/>
+    <custom name="uiid2" type="java.lang.String" value="RedLabelRight"/>
+      <layoutConstraint value="East" />
+    </component>
+  </component>
+  <component type="Container" layout="BorderLayout" borderLayoutAbsoluteCenter="false"  name="imageContainer2">
+    <component type="Container" layout="BorderLayout" borderLayoutAbsoluteCenter="false"  name="Container_3">
+      <layoutConstraint value="South" />
+      <component type="TextArea" text="Griffith Observatory is a facility in Los Angeles, California sitting on the south-facing slope of Mount Hollywood in Los Angeles' Griffith Park." uiid="SlightlySmallerFontLabelLeft" name="Text_Area_2">
+        <layoutConstraint value="Center" />
+      </component>
+      <component type="Button" text="" uiid="Label" icon="fontImage:" disabledIcon="fontImage:" name="Button_2">
+        <layoutConstraint value="East" />
+      </component>
+    </component>
+  </component>
+  <component type="Label" uiid="Separator" name="Label_1_1_1">
+  </component>
+</component>

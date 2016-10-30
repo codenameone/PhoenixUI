@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="BorderLayout" borderLayoutAbsoluteCenter="false"  title="Sign In" name="SignInForm">
+  <component type="Container" layout="BoxLayout" boxLayoutAxis="Y"  scrollableY="true" name="Container_1">
+    <layoutConstraint value="Center" />
+    <component type="Label" uiid="CenterLabel" icon="resFile:profile_image.png" name="Label_1">
+    </component>
+    <component type="ComponentGroup" name="Component_Group_1">
+      <component type="TextField" text="TextField" name="Text_Field_2">
+      </component>
+      <component type="TextField" text="TextField" name="Text_Field_1">
+      </component>
+    </component>
+    <component type="Button" text="Sign In" name="Button_2" actionEvent="true">
+    </component>
+    <component type="Button" text="Forgot Your Password" uiid="CenterLabelSmall" name="Button_3">
+    </component>
+  </component>
+  <component type="Button" text="Create New Account" uiid="CenterLabel" name="Button_1">
+    <layoutConstraint value="South" />
+  </component>
+</component>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="BorderLayout" borderLayoutAbsoluteCenter="false"  title="" uiid="Welcome" name="WalkthruForm">
+  <component type="Tabs" name="Tabs_1">
+    <layoutConstraint value="Center" />
+    <component type="Container"  tabTitle="Tab" layout="BoxLayout" boxLayoutAxis="Y"  uiid="Card" name="tab1Root">
+    </component>
+    <component type="Container"  tabTitle="Tab" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="1" flowLayoutValign="0"  name="tab2Root">
+    </component>
+    <component type="Container"  tabTitle="Tab" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="1" flowLayoutValign="0"  name="tab3Root">
+    </component>
+  </component>
+  <component type="Container" layout="BoxLayout" boxLayoutAxis="Y"  name="Container_4">
+    <layoutConstraint value="South" />
+    <component type="Container" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4"  name="Container_3">
+      <component type="RadioButton" uiid="Label" selected="false" toggleButton="true" icon="resFile:walthru-radio-unselected.png" pressedIcon="resFile:walthru-radio-selected.png" name="tab1">
+      </component>
+      <component type="RadioButton" uiid="Label" toggleButton="true" icon="resFile:walthru-radio-unselected.png" pressedIcon="resFile:walthru-radio-selected.png" name="tab2">
+      </component>
+      <component type="RadioButton" uiid="Label" toggleButton="true" icon="resFile:walthru-radio-unselected.png" pressedIcon="resFile:walthru-radio-selected.png" name="tab3" actionEvent="true">
+      </component>
+    </component>
+    <component type="Container" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4"  uiid="GetStartedButton" name="Container_6">
+      <component type="Button" text="Get Started" uiid="GetStartedButton" textPosition="1" name="Button_1" actionEvent="true">
+      </component>
+      <component type="Label" uiid="GetStartedRedArrow" icon="fontImage:" name="Label_1">
+      </component>
+    </component>
+  </component>
+</component>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="BoxLayout" boxLayoutAxis="Y"  title="InboxForm" name="InboxForm">
+  <component type="Container" layout="BorderLayout" borderLayoutAbsoluteCenter="false"  name="Container_1">
+    <component type="Container" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="1" flowLayoutValign="0"  name="Container_2">
+      <layoutConstraint value="East" />
+      <component type="Label" text="11:31 AM" uiid="SmallFontLabel" name="Label_1">
+      </component>
+    </component>
+    <component type="Container" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="0"  name="Container_4">
+      <layoutConstraint value="West" />
+      <component type="Label" uiid="Padding2" icon="resFile:label_round.png" name="Label_4">
+      </component>
+    </component>
+    <component type="Container" layout="BoxLayout" boxLayoutAxis="Y"  name="Container_3">
+      <layoutConstraint value="Center" />
+      <component type="Label" text="Sheldon Murphy" name="Label_3">
+      </component>
+      <component type="Label" text="Design Updates" uiid="RedLabel" name="Label_2">
+      </component>
+      <component type="TextArea" rows="2" columns="100" text="Hi Adrian, there is a new announcement for you from Oxford  Learning  Lab. Hello we completly..." uiid="SmallFontLabel" name="Text_Area_1">
+      </component>
+    </component>
+  </component>
+  <component type="Label" text="" uiid="Separator" name="Label_6">
+  </component>
+  <component type="Container" layout="BorderLayout" borderLayoutAbsoluteCenter="false"  name="Container_1">
+    <component type="Container" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="1" flowLayoutValign="0"  name="Container_2">
+      <layoutConstraint value="East" />
+      <component type="Label" text="8:23 PM" uiid="SmallFontLabel" name="Label_1">
+      </component>
+    </component>
+    <component type="Container" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="0"  name="Container_4">
+      <layoutConstraint value="West" />
+      <component type="Label" uiid="Padding2" icon="resFile:label_round-selected.png" name="Label_4">
+      </component>
+    </component>
+    <component type="Container" layout="BoxLayout" boxLayoutAxis="Y"  name="Container_3">
+      <layoutConstraint value="Center" />
+      <component type="Label" text="Massdrop" name="Label_3">
+      </component>
+      <component type="Label" text="We Are Just Getting Started" uiid="RedLabel" name="Label_2">
+      </component>
+      <component type="TextArea" rows="2" columns="100" text="Tenkara Rod Co Teton Package Made possible by the Ultralight community..." uiid="SmallFontLabel" name="Text_Area_1">
+      </component>
+    </component>
+  </component>
+  <component type="Label" text="" uiid="Separator" name="Label_7">
+  </component>
+  <component type="Container" layout="BorderLayout" borderLayoutAbsoluteCenter="false"  name="Container_1">
+    <component type="Container" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="1" flowLayoutValign="0"  name="Container_2">
+      <layoutConstraint value="East" />
+      <component type="Label" text="Yesterday" uiid="SmallFontLabel" name="Label_1">
+      </component>
+    </component>
+    <component type="Container" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="0"  name="Container_4">
+      <layoutConstraint value="West" />
+      <component type="Label" uiid="Padding2" icon="resFile:label_round.png" name="Label_4">
+      </component>
+    </component>
+    <component type="Container" layout="BoxLayout" boxLayoutAxis="Y"  name="Container_3">
+      <layoutConstraint value="Center" />
+      <component type="Label" text="Product Hunt" name="Label_3">
+      </component>
+      <component type="Label" text="Our favorite GIF apps" uiid="RedLabel" name="Label_2">
+      </component>
+      <component type="TextArea" rows="2" columns="100" text="We know that you spend a lot of time admiring the hard work of GIF-makers the world over. " uiid="SmallFontLabel" name="Text_Area_1">
+      </component>
+    </component>
+  </component>
+  <component type="Label" text="" uiid="Separator" name="Label_8">
+  </component>
+  <component type="Container" layout="BorderLayout" borderLayoutAbsoluteCenter="false"  name="Container_1">
+    <component type="Container" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="1" flowLayoutValign="0"  name="Container_2">
+      <layoutConstraint value="East" />
+      <component type="Label" text="Mar 12" uiid="SmallFontLabel" name="Label_1">
+      </component>
+    </component>
+    <component type="Container" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="0"  name="Container_4">
+      <layoutConstraint value="West" />
+      <component type="Label" uiid="Padding2" icon="resFile:label_round.png" name="Label_4">
+      </component>
+    </component>
+    <component type="Container" layout="BoxLayout" boxLayoutAxis="Y"  name="Container_3">
+      <layoutConstraint value="Center" />
+      <component type="Label" text="MightyDeals" name="Label_3">
+      </component>
+      <component type="Label" text="Vintage Design: 600+ Retro Vector Illustrations and Objects" uiid="RedLabel" name="Label_2">
+      </component>
+      <component type="TextArea" rows="2" columns="100" text="With just a little imagery, an ordinary project can transform into something extraordinary! " uiid="SmallFontLabel" name="Text_Area_1">
+      </component>
+    </component>
+  </component>
+  <component type="Label" text="" uiid="Separator" name="Label_9">
+  </component>
+  <component type="Container" layout="BorderLayout" borderLayoutAbsoluteCenter="false"  name="Container_1">
+    <component type="Container" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="1" flowLayoutValign="0"  name="Container_2">
+      <layoutConstraint value="East" />
+      <component type="Label" text="Mar 08" uiid="SmallFontLabel" name="Label_1">
+      </component>
+    </component>
+    <component type="Container" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="0"  name="Container_4">
+      <layoutConstraint value="West" />
+      <component type="Label" uiid="Padding2" icon="resFile:label_round.png" name="Label_4">
+      </component>
+    </component>
+    <component type="Container" layout="BoxLayout" boxLayoutAxis="Y"  name="Container_3">
+      <layoutConstraint value="Center" />
+      <component type="Label" text="Twitter" name="Label_3">
+      </component>
+      <component type="Label" text="Popular tweets this week" uiid="RedLabel" name="Label_2">
+      </component>
+      <component type="TextArea" rows="2" columns="100" text="Hi Adrian, there is a new announcement for you from Oxford Learning  Lab. Hello we completly..." uiid="SmallFontLabel" name="Text_Area_1">
+      </component>
+    </component>
+  </component>
+  <component type="Label" text="" uiid="Separator" name="Label_5">
+  </component>
+</component>
