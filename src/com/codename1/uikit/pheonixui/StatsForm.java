@@ -169,7 +169,7 @@ public class StatsForm extends BaseForm {
 
             @Override
             public int getSize() {
-                return 2000000;
+                return 50000;
             }
 
             @Override
@@ -209,6 +209,7 @@ public class StatsForm extends BaseForm {
         final String[] WEEKDAYS = {"SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"};
         dayPicker.setOrientation(List.HORIZONTAL);
         dayPicker.setFixedSelection(List.FIXED_CENTER);
+        dayPicker.setRenderingPrototype(new Date());
         dayPicker.setRenderer(new ListCellRenderer() {
             Label focus = new Label();
             Label day;
@@ -222,6 +223,7 @@ public class StatsForm extends BaseForm {
                                 FlowLayout.encloseCenter(day), 
                                 FlowLayout.encloseCenter(label)
                         );
+                cnt.setCellRenderer(true);
             }
             
             @Override
