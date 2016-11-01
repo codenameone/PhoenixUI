@@ -142,11 +142,11 @@ public class StatsForm extends BaseForm {
         );
         if(last) {
             c.getAllStyles().setBorder(Border.createCompoundBorder(null, 
-                    Border.createLineBorder(1, 0x5b636b), null, null));
+                    Border.createLineBorder(2, 0x5b636b), null, null));
         } else {
             c.getAllStyles().setBorder(Border.createCompoundBorder(null, 
-                    Border.createLineBorder(1, 0x5b636b), null, 
-                    Border.createLineBorder(1, 0x5b636b)));
+                    Border.createLineBorder(2, 0x5b636b), null, 
+                    Border.createLineBorder(2, 0x5b636b)));
         }
         return c;
     }
